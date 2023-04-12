@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+.App-background{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/empty-room-gray-wall-room-with-wooden-floor.jpg");
+  background-position: center;
+  background-size: cover;
+  // <a href="https://www.freepik.com/free-photo/empty-room-gray-wall-room-with-wooden-floor_17598847.htm#query=wall%20background&position=9&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
+  .calculator-frame{
+    width: 600px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    .upper-body{
+      background-color: rgb(56, 54, 56);
+      color: white;
+      width: 100%;
+      padding: 25px 40px 0px 40px;
+      margin: 0px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border: 2px solid black;
+      .green-block{
+        background: rgb(0,66,12);
+        background: linear-gradient(180deg, rgba(0,66,12,1) 0%, rgba(54,119,0,1) 100%);
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 30px;
+      }
+      .twelve{
+        width: fit-content;
+      }
+      .screen{
+        background-color: #A0B3A0;
+        font-size: 1.15em;
+        text-align: end;
+        font-family: 'Orbitron', sans-serif;
+      }
+    }
+    .lower-body{
+      background-color: rgb(255, 202, 138);
+      width: 100%;
+      padding: 15px 40px 25px 40px;
+      margin: 0px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border: 2px solid black;
+      button{
+        color: white;
+        font-size: 3em;
+        width: 70px;
+        border: 1px solid black;
+        border-radius: 15px;
+        background: rgb(70, 67, 70);
+      }
+      button:hover{
+        background: rgb(46, 44, 46);
+      }
+    }
+  }
+}
